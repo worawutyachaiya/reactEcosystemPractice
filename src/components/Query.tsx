@@ -28,7 +28,7 @@ const Query = () => {
     },
   });
 
-  const handleAddUser = (e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleAddUser = () => {
     // e.preventDefault();
     mutation.mutate({ name, email });
     
